@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int i,sum;
+for (i=100;i>=0;i--)
+if (i%2==0)
+cout<<"even"<<i<<endl;
+else
+cout<<"odd"<<i<<endl;
+}
