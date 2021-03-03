@@ -1,0 +1,14 @@
+LEAP YEAR
+#include <iostream>
+using namespace std;
+int main()
+{
+int year,a,b,c;
+cout<<"ENTER YEAR"<<endl;
+cin>>year;
+a=year%4;
+b=year%200;
+c=year%400;
+if ((a==0 && b!=0) || c==0)
+cout<<"LEAP YEAR"<<endl;
+}
