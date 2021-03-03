@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int number;
+for (number=100;number>0;number--)
+cout<<number<<endl;
+}
