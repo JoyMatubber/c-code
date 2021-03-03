@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+/* here we will find reminder without using modulus*/
+int main()
+{ int reminder,number;
+cout<<"PLEASE ENTER YOUR NUMBER :";
+cin>>number;
+reminder=(number-((number/3)*3));
+/*which number you want to use to divided by
+you have to use that number instaed of 2 */
+cout<<"YOUR REMINDER IS :"<<reminder<<endl;
+}
