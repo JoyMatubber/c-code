@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int num1,num2,num3;
+cout<<"ENTER YOUR NUMBER";
+cin>>num1;
+cout<<"ENTER YOUR NUMBER";
+cin>>num2;
+cout<<"ENTER YOUR NUMBER";
+cin>>num3;
+if (num1>num2)
+{
+if (num2>num3)
+{
+cout<<"THIS IS LARGEST"<<num1<<endl;
+}
+else{
+cout<<"THIS IS LARGEST"<<num3<<endl;
+}
+}
+else
+{
+if (num2>num3)
+{
+cout<<"THIS IS LARGEST"<<num2<<endl;
+}
+else{
+cout<<"THIS IS LARGEST"<<num3<<endl;
+}
+}
+}
