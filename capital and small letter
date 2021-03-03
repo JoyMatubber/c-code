@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+/* here will find the capital or small letter*/
+int main()
+{
+char ch;
+cout<<"ENTER YOUR CHARACTER PLEASE:";
+cin>>ch;
+if(ch>='a' && ch<='z')
+{
+cout<<ch<<" Is a Small Letter"<<endl;
+}
+if(ch>='A' && ch<='Z')/*use if again because it is not connected to
+previous one*/
+{
+cout<<ch<<" Is a Capital Letter"<<endl;
+}
+}
