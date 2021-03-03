@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+char ch;
+cout<<"ENTER YOUR CHARACTER:";
+cin>>ch;
+switch (ch)
+{
+case 'A':
+cout<<"A is the vowel"<<endl;
+break;
+case 'E':
+cout<<"E is the vowel"<<endl;
+break;
+case 'I':
+cout<<"I is the vowel"<<endl;
+break;
+case 'O':
+cout<<"O is the vowel"<<endl;
+break;
+case 'U':
+cout<<"U is the vowel"<<endl;
+break;
+default:
+cout<<"its not a vowel"<<endl;
+}
+}
