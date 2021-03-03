@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+int num1,num2,ADDITION,DIVISION,MULTIPICATION,SUBTRACTION,REMINDER;
+printf("ENTER YOUR NUMBER:");
+scanf("%d",& num1);
+printf("ENTER YOUR NUMBER:");
+scanf("%d",& num2);
+ADDITION=num1+num2;
+SUBTRACTION=num1-num2;
+DIVISION=num1/num2;
+MULTIPICATION=num1*num2;
+REMINDER=num1%num2;
+printf("\nTHE ADDITION OF %d and %d is =%d\n",num1,num2,ADDITION);
+printf("THE SUBTRACTION OF %d and %d is =%d\n",num1,num2,SUBTRACTION);
+printf("THE DIVISION OF %d and %d is =%d\n",num1,num2,DIVISION);
+printf("THE REMINDER OF %d and %d is =%d\n",num1,num2,REMINDER);
+printf("THE MULTIPICATION OF %d and d% is =%d\n",num1,num2,MULTIPICATION);
+}
