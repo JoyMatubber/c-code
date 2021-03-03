@@ -30,3 +30,43 @@ cout<<"THIS IS LARGEST"<<num3<<endl;
 }
 }
 }
+          // another one 
+          
+ #include <iostream>
+using namespace std;
+int main()
+{
+float number1;
+float number2;
+float number3;
+cout <<"ENTER 1ST NUMBER"<< endl;
+cin>>number1;
+cout <<"ENTER 2ND NUMBER"<< endl;
+cin>>number2;
+cout <<"ENTER 3RD NUMBER"<< endl;
+cin>>number3;
+if (number1>number2 && number1>number3)
+{
+cout <<"THE LARGEST NUMBER IS:"<<number1<<endl;
+}
+else if (number2>number1 && number2>number3)
+{
+cout <<"THE LARGEST NUMBER IS:"<<number2<<endl;
+}
+else if (number3>number1 && number3>number2)
+{
+cout<<"THE LARGEST NUMBER IS:"<<number3<<endl;
+}
+if (number1<number2 && number2<number3)
+{
+cout <<"THE SMALLEST NUMBER IS:"<<number1<<endl;
+}
+else if (number2<number1 && number1<number3)
+{
+cout <<"THE LARGEST NUMBER IS:"<<number2<<endl;
+}
+else if (number3<number1 && number1<number2 )
+{
+cout<<"THE LARGEST NUMBER IS:"<<number3<<endl;
+}
+}
